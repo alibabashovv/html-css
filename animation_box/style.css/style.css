@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.animation{
+    width: 400px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgb(187, 131, 28);
+    animation-name: movingbox;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    position: relative;
+    left: 50%;
+    animation-timing-function: linear;
+    background-color: rgb(187, 131, 28);
+}
+@keyframes movingbox{
+    0%{
+        background-color:  rgb(187, 131, 28);
+        width: 360px;
+
+        top:0px;
+    }
+    100%{
+        background-color:rgb(36, 36, 34) ;
+        width: 30px;
+        height: 50px;
+        top: 218px;
+    }
+}
