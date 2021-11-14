@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav{
+    font-size: 14px;
+        .cinemalogo{
+            height: 111px;
+            padding-left: 125px;
+            background-color: #334e9e;
+            display: flex;
+            justify-content: center;
+            img{
+                position: relative;
+                top: 11%;
+                height: 90px;
+            }
+        }
+        .headerlinks{
+            display: inline-block;
+            padding: 0;
+            .top-header{
+                display: flex;
+                position: relative;
+                top: 18px;
+                font-size: 14px;
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
+                .info{
+                    justify-content: start;
+                    align-items: center;
+                    ul {
+                        display: flex;
+                        margin:0;
+                        li{
+                           margin-left: 60px;
+                        }   
+                    }
+                }
+                .language{
+                    margin-left: 30px;
+                    ul{
+                        li{
+                            margin-left: 10px;
+                            i{
+                                color: rgb(21, 21, 105);
+                            }
+                        }
+                    }
+                }
+           }
+           .bottom-header{
+               .menu{
+                   position: relative;
+                   top: 20px;
+                   font-size: 18px; 
+                   background-color: #00acec;
+                   color: white;
+                   ul{
+                       display: flex;
+                       align-items: center;
+                       li{
+                         margin-left: 60px;
+                         span{
+                             font-size: 12px;
+                             position: relative;
+                             bottom: 10px;
+                         }
+                         .phone{
+                             position: relative;
+                             left: -22px;
+                             top: 7px;
+                             text-align: center;
+                             span{
+                                 font-size: 12px;
+                                 color: #fff;
+                                 
+                             }
+                         }
+                       }
+                   }
+               }    
+           }
+        }
+}
